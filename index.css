@@ -45,28 +45,29 @@
 
 .hero-img img { position: relative; }
 
-.hero-title { 
-    position: absolute; 
-    top: 119px;
+.hero-title,
+.hero-paragraph {
+    position: absolute;
     color: var(--white);
+    border-radius: 10px;
+}
+
+.hero-title { 
+    top: 119px;
     background: var(--blue57);
     padding: 6px 12px;
-    border-radius: 10px;
     font-size: 3.2rem;
 }
 
 .hero-paragraph {
-    position: absolute;
     top: 172px;
-    color: var(--white);
     background: var(--lightBlue);
     padding: 8px 29px;
-    border-radius: 10px;
     font-size: 1.8rem;
     width: 412px;
 }
 
-
+                                /* Main */
 main {
     background-color: var(--mainBg);
     padding: 3.9em 3.4em 3.8em 3.4em;
@@ -80,9 +81,7 @@ main {
     margin-bottom: 2.25em;
 }
 
-.blogs {
-    gap: 29px;
-}
+.blogs { gap: 29px; }
 
 .blog {
     flex-direction: column;
