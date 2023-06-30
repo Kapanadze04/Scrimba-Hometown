@@ -15,6 +15,7 @@
     --blue57: #1D3557;
     --lightBlue: #457B9D;
     --mainBg: #F1FAEE;
+    --footerBg: #A8DADC;
 }
 
 /* Colors */
@@ -70,6 +71,7 @@ main {
     background-color: var(--mainBg);
     padding: 3.9em 3.4em 3.8em 3.4em;
     flex-direction: column;
+    margin-bottom: 5em;
 }
 
 .main-title {
@@ -103,6 +105,42 @@ main {
 }
 
 .blog-paragraph {
+    font-size: 1.6rem;
+    color: var(--blue57);
+}
+
+
+footer {
+    padding: 2.3em 1.1em 2.2em 1.3em;
+    background-color: var(--footerBg);
+    box-shadow: 0px 6px 0px 0px var(--blue57); 
+    border-radius: 10px;
+    margin-bottom: 5em;
+    align-items: center;
+    gap:  0.4375em;
+}
+
+.info {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 2.4rem;
+    margin-bottom: 0.59em;
+    color: var(--blue57);
+}
+
+.footer-paragraph {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: var(--blue57);
+    width: 189px;
+    text-align: center;
+    margin-bottom: 1.625em;
+}
+
+.author {
     font-size: 1.6rem;
     color: var(--blue57);
 }
