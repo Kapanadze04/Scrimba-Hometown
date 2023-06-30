@@ -14,6 +14,7 @@
     --white: #FFFFFF;
     --blue57: #1D3557;
     --lightBlue: #457B9D;
+    --mainBg: #F1FAEE;
 }
 
 /* Colors */
@@ -62,6 +63,48 @@
     border-radius: 10px;
     font-size: 1.8rem;
     width: 412px;
+}
+
+
+main {
+    background-color: var(--mainBg);
+    padding: 3.9em 3.4em 3.8em 3.4em;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 2.4rem;
+    color: var(--blue57);
+    margin-bottom: 2.25em;
+}
+
+.blogs {
+    gap: 29px;
+}
+
+.blog {
+    flex-direction: column;
+    width: 198px;
+    text-align: center;
+    align-items: center;
+}
+
+.blog-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2.2em;
+}
+
+.blog-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.06em;
+    color: var(--blue57);
+}
+
+.blog-paragraph {
+    font-size: 1.6rem;
+    color: var(--blue57);
 }
 
 
